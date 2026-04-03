@@ -15,8 +15,10 @@ Este repositorio se corresponde a la Práctica Formativa Obligatoria 1 (PFO1) de
 
 El portafolio refleja mi perfil orientado al desarrollo web y la Ciencia de Datos, mostrando proyectos integradores que utilizan Python, C#, Kotlin, SQL y metodologías de análisis predictivo. El diseño implementa maquetación moderna (Flexbox y CSS Grid), enfoque responsivo (Mobile First) para adaptación a múltiples pantallas y variables nativas de CSS para la paleta de colores.
 
-- 🚀 **Github Pages**:
-- 🌐 **Vercel**:
+<br/>
+
+- 🚀 **Github Pages**: [Visitar Portafolio en GitHub Pages](https://Aiello-M.github.io/FrontEnd-PFO1-Portafolio/)
+- 🌐 **Vercel**: [Visitar Portafolio en Vercel](https://front-end-pfo-1-portafolio.vercel.app/)
 
 ---
  
