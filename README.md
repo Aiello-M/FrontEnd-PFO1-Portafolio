@@ -72,8 +72,6 @@ El portafolio refleja mi perfil orientado al desarrollo web y la Ciencia de Dato
 - ✅ El diseño es responsivo (Mobile First) y se visualiza correctamente en distintos dispositivos sin desbordamientos.
 - ✅ Se aplicaron buenas prácticas de accesibilidad (atributos `alt` en imágenes, `aria-label` en enlaces de redes e íconos).
 
----
-
 
 ---
 
