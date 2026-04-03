@@ -77,7 +77,7 @@ El portafolio refleja mi perfil orientado al desarrollo web y la Ciencia de Dato
 
 ## ✒️ Autora
 
-| [<img src="./assets/imgPerfil.jpg" width="115"><br><sub>Mariana Aiello</sub>](https://github.com/Aiello-M) |
+| [<img src="./img/imgPerfil.jpg" width="115"><br><sub>Mariana Aiello</sub>](https://github.com/Aiello-M) |
 | :---: |
 
 ---
