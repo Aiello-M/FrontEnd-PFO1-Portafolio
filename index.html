@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Título -->
+    <link rel="icon" href="img/logo.png" type="image/jpeg" />
+    <title>Mi Portafolio Personal | Aiello</title>
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Devicons - iconos de tecnología -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+
+    <!-- Font Awesome - iconos de redes sociales -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <!-- CSS -->
+    <link href="css/styles.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <!-- HEADER -->
+    <header>
+      <h1>&lt;Aiello - Tech/&gt;</h1>
+    </header>
+
+    <!-- NAVEGACIÓN -->
+    <nav>
+      <ul>
+        <li><a href="#sobre-mi">Sobre mí</a></li>
+        <li><a href="#tarjetas">Proyectos</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#peliculas">Hobbies</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+
+    <!-- SECCIÓN PRINCIPAL -->
+    <main>
+      <!-- Sección 1: presentación personal -->
+      <!-- Presentación personal con foto de perfil y descripción de mis objetivos.
+            Mejora futura: colocar un botón directo para descargar el CV en formato PDF 
+            y añadir iconos con enlaces a los perfiles de LinkedIn y GitHub para facilitar 
+            el contacto rápido. -->
+      <section id="sobre-mi">
+        <div class="sobre-mi-imagen">
+          <img src="img/avatar.jpeg" alt="Foto de Perfil de Aiello" />
+          <div class="avatar-texto">
+            <p>Aiello Mariana</p>
+          </div>
+        </div>
+
+        <div class="sobre-mi-texto">
+          <h2>Sobre mí</h2>
+          <p>
+            Soy estudiante de la Tecnicatura en Desarrollo de Software y también
+            me especializo en el apasionante mundo de la Ciencia de Datos.
+            Cuento con experiencia en lenguajes como Python y C#, y estoy
+            enfocada en la creación de soluciones eficientes y en la
+            automatización de procesos mediante bases de datos y herramientas de
+            análisis.
+          </p>
+        </div>
+      </section>
+
+      <!-- Sección 2: Proyectos destacados -->
+      <!-- Tarjetas con proyectos prácticos realizados, inlcuyendo una imagen, descripción, 
+       tecnologías utilizadas y enlaces a repositorios. 
+        Mejora futura: incorporar enlaces directos a los despliegues en GitHub Pages o Vercel. 
+        A medida que aumente la cantidad de proyectos, se podría implementar un scroll horizontal para optimizar el espacio vertical. -->
+      <section id="tarjetas">
+        <h2 class="titulo-seccion">Proyectos Destacados</h2>
+
+        <div class="tarjetas-container">
+          <article class="tarjeta">
+            <img
+              src="img/proyecto1.png"
+              alt="Captura de pantalla de la App del Gimnasio"
+            />
+            <div class="tarjeta-tags">
+              <span class="tag">Kotlin</span>
+              <span class="tag">SQLite</span>
+            </div>
+            <h3>App de Gestión de Club Deportivo</h3>
+            <p>
+              Aplicación móvil desarrollada en Android Studio utilizando Kotlin
+              para administrar el registro de socios, pagos y actividades del
+              club. Implementación de SQLite para la base de datos y
+              RecyclerView para la visualización de usuarios y rutinas.
+            </p>
+            <a
+              href="https://github.com/IFTS29/ClubDeportivo-Mobile"
+              class="btn-proyecto"
+              target="_blank"
+              >Ir a GitHub ➔</a
+            >
+          </article>
+
+          <article class="tarjeta">
+            <img
+              src="img/proyecto2.png"
+              alt="Gráfico de muestra del reporte CSV"
+            />
+            <div class="tarjeta-tags">
+              <span class="tag">HTML</span>
+              <span class="tag">CSS</span>
+              <span class="tag">JavaScript</span>
+            </div>
+            <h3>Catálogo de Películas y Series</h3>
+            <p>
+              Desarrollo frontend de una aplicación web interactiva para la
+              gestión y visualización de contenido multimedia (películas y
+              seríes), implementando diseño responsivo y estructuración
+              semántica.
+            </p>
+            <a
+              href="https://github.com/Aiello-M/TP-Front-cursoJava-CodoACodo"
+              class="btn-proyecto"
+              target="_blank"
+              >Ir a GitHub ➔</a
+            >
+          </article>
+
+          <article class="tarjeta">
+            <img
+              src="img/proyecto3.png"
+              alt="Captura de pantalla de análisis"
+            />
+            <div class="tarjeta-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Machine Learning</span>
+            </div>
+            <h3>Predicción de Churn (TelecomX)</h3>
+            <p>
+              Proyecto de análisis y visualización de datos. Desarrollo de
+              modelos predictivos (Regresión Logística y Random Forest) para
+              anticipar la baja de clientes. Incluye balanceo de datos con SMOTE
+              y análisis exploratorio profundo.
+            </p>
+            <a
+              href="https://github.com/Aiello-M/Challenge-TelecomX_Parte2"
+              class="btn-proyecto"
+              target="_blank"
+              >Ir a GitHub ➔</a
+            >
+          </article>
+        </div>
+      </section>
+
+      <!-- Seccion 3: Habilidades -->
+      <!-- Muestra las tecnologías dominadas y aquellas en proceso de aprendizaje. 
+        Mejora futura: Reemplazar el listado simple por barras de progreso visuales 
+        que indiquen el nivel de dominio técnico de mayor a menor. 
+        Para la lista de tecnologías por aprender, ordenarlas según prioridad. -->
+      <section id="habilidades">
+        <h2 class="titulo-seccion">Habilidades & Tecnologías</h2>
+
+        <div class="contenedor-habilidades">
+          <!-- Tecnologías que domino -->
+          <div class="grupo-habilidades">
+            <h3>Tecnologías que manejo</h3>
+            <ul class="habilidades-lista">
+              <li class="habilidad">
+                <i class="devicon-html5-plain colored"></i>
+                <span>HTML5</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-css3-plain colored"></i>
+                <span>CSS3</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-javascript-plain colored"></i>
+                <span>JavaScript</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-python-plain colored"></i>
+                <span>Python</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-csharp-plain colored"></i>
+                <span>C#</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-mysql-plain colored"></i>
+                <span>MySQL</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tecnologías por aprender -->
+          <div class="grupo-habilidades">
+            <h3>Tecnologías por aprender</h3>
+            <ul class="habilidades-lista">
+              <li class="habilidad">
+                <i class="devicon-java-plain colored"></i>
+                <span>Java</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-kotlin-plain colored"></i>
+                <span>Kotlin</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-react-original colored"></i>
+                <span>React</span>
+              </li>
+              <li class="habilidad">
+                <i class="devicon-tensorflow-original colored"></i>
+                <span>Machine Learning</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección 4: películas favoritas -->
+      <!--  Muestra información sobre películas favoritas, incluyendo foto, titulo, 
+        y otras descripciones relevantes.
+        Mejora futura: automatizar la carga de datos mediante JavaScript consumiendo 
+        una API externa (como OMDb) para evitar repeticiones en el HTML. 
+        Además, agregar botones de "Más info" hacia IMDb o incrustar el tráiler oficial 
+        de la película para reemplazar la imagen estática. -->
+      <section id="peliculas">
+        <h2 class="titulo-seccion">Mis Películas Favoritas</h2>
+
+        <div class="peliculas-lista">
+          <div class="pelicula">
+            <div class="imagen-hover">
+              <img src="img/pelicula1.jpg" alt="Póster de Oldboy" />
+              <div class="imagen-hover-texto">
+                <p>Oldboy</p>
+              </div>
+            </div>
+
+            <div class="pelicula-contenido">
+              <h3>Oldboy</h3>
+
+              <div class="tarjeta-tags">
+                <span class="tag">2003</span>
+                <span class="tag">Park Chan-wook</span>
+              </div>
+
+              <p>
+                Un hombre encerrado durante 15 años sin razón aparente es
+                liberado y tiene 5 días para encontrar a su captor y buscar
+                respuestas.
+              </p>
+              <p class="dato-pelicula">
+                <i class="fa-solid fa-star"></i>
+                <span>Puntuación:</span> 8,3/10
+              </p>
+
+              <p class="dato-pelicula">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Premios:</span> 46 premios y 28 nominaciones
+              </p>
+            </div>
+          </div>
+
+          <div class="pelicula">
+            <div class="imagen-hover">
+              <img src="img/pelicula2.jpeg" alt="Póster de Kill Bill" />
+              <div class="imagen-hover-texto">
+                <p>Kill Bill</p>
+              </div>
+            </div>
+
+            <div class="pelicula-contenido">
+              <h3>Kill Bill: Vol. 1</h3>
+
+              <div class="tarjeta-tags">
+                <span class="tag">2003</span>
+                <span class="tag">Quentin Tarantino</span>
+              </div>
+
+              <p>
+                Una asesina despierta luego de 4 años de estar en coma y busca
+                venganza contra quienes la traicionaron.
+              </p>
+              <p class="dato-pelicula">
+                <i class="fa-solid fa-star"></i>
+                <span>Puntuación:</span> 8,2/10
+              </p>
+
+              <p class="dato-pelicula">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Premios:</span> 30 premios y 103 nominaciones en total
+                (Nominado a 5 premios BAFTA)
+              </p>
+            </div>
+          </div>
+
+          <div class="pelicula">
+            <div class="imagen-hover">
+              <img src="img/pelicula3.jpg" alt="Póster de The Matrix" />
+              <div class="imagen-hover-texto">
+                <p>The Matrix</p>
+              </div>
+            </div>
+
+            <div class="pelicula-contenido">
+              <h3>The Matrix</h3>
+
+              <div class="tarjeta-tags">
+                <span class="tag">1999</span>
+                <span class="tag">Wachowski</span>
+              </div>
+
+              <p>
+                Un hacker descubre la verdad sobre la realidad y su papel en la
+                guerra contra las máquinas.
+              </p>
+              <p class="dato-pelicula">
+                <i class="fa-solid fa-star"></i>
+                <span>Puntuación:</span> 8,7/10
+              </p>
+
+              <p class="dato-pelicula">
+                <i class="fa-solid fa-trophy"></i>
+                <span>Premios:</span> 42 premios y 52 nominaciones en total
+                (Ganó 4 premios Óscar)
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Seccion 5: formulario de contacto-->
+      <section id="contacto">
+        <h2 class="titulo-seccion">Contacto</h2>
+
+        <form action="#" method="POST" class="formulario-contacto">
+          <div class="form-grid">
+            <input
+              type="text"
+              id="nombre"
+              name="nombre"
+              placeholder="Nombre"
+              aria-label="Nombre"
+              required
+            />
+            <input
+              type="text"
+              id="apellido"
+              name="apellido"
+              placeholder="Apellido"
+              aria-label="Apellido"
+              required
+            />
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              aria-label="Email"
+              required
+            />
+            <input
+              type="tel"
+              id="telefono"
+              name="telefono"
+              placeholder="Teléfono"
+              aria-label="Teléfono"
+              required
+            />
+          </div>
+
+          <textarea
+            id="mensaje"
+            name="mensaje"
+            rows="5"
+            placeholder="Tu mensaje..."
+            aria-label="Mensaje"
+            required
+          ></textarea>
+
+          <button type="submit" class="btn-enviar">Enviar Mensaje</button>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-contenido">
+        <ul class="footer-redes">
+          <li>
+            <a
+              class="footer-link"
+              href="https://github.com"
+              target="_blank"
+              aria-label="GitHub"
+            >
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer-link"
+              href="https://linkedin.com"
+              target="_blank"
+              aria-label="LinkedIn"
+            >
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li>
+            <a
+              class="footer-link"
+              href="https://twitter.com"
+              target="_blank"
+              aria-label="Twitter"
+            >
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        </ul>
+
+        <a href="#contacto" class="footer-cta"
+          >Escribinos y contanos tu experiencia</a
+        >
+
+        <p class="footer-copyright">
+          || &copy; Copyright 2026. Todos los derechos reservados.
+        </p>
+      </div>
+
+      <div class="footer-subir">
+        <a href="#" aria-label="Volver arriba">
+          <i class="fa-solid fa-circle-chevron-up"></i>
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
